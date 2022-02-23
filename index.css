@@ -1,0 +1,180 @@
+@font-face {
+    font-family: Karla;
+    src: url(fonts/Karla-Regular.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+body {
+    background-color: black;
+}
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+    flex-flow: column wrap;
+    background: #1F2937;
+    max-height: 719px;
+    max-width: 550px;
+}
+
+#top-level {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    background-color: #3A69D2;
+    width: 550px;
+    height: 190px;
+    color: white;
+    font-family: 'Karla', 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: normal;
+}
+
+.header-text {
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    padding-bottom: 5px;
+}
+
+.button-row {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 473px;
+    height: 45px;
+    padding-top: 30px;
+    
+}
+
+#wash-car, #mow-lawn, #pull-weeds {
+    padding: 15px 13px;
+    background-color: #d1d4f4;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    border: 1px solid #D5D4D8;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 142.11px;
+    height: 45px;
+}
+
+#task-list, #end-level{
+    color: white;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width:473px;
+    padding: 43px 15px;
+    
+}
+
+.task-headers {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    
+}
+
+.task-left, .task-right, .end-left, .end-right {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#service-name, #service-price, #total-amount {
+    margin-top: -10px;
+    margin-bottom: -60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+#remove-button {
+    background: none;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+
+}
+
+hr {
+    width: 471px;
+    border: 1px solid #C3C6DB;
+    margin-top: 15px;
+}
+
+#end-level {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    margin-top: -40px;
+    box-sizing: border-box;
+}
+
+.end-left {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#total-amount {
+    font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 32px;
+align-self: flex-end;
+margin-top: 2px;
+}
+
+#send-btn {
+    width: 473px;
+    height: 44px;
+    background-color: #3A69D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: white;
+    margin-top: 40px;
+
+}
+
+img {
+    display: inline-block;
+    height: 80%;
+    
+}
